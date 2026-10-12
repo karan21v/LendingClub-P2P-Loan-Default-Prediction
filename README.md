@@ -23,7 +23,7 @@ The notebook contains:
 - live single-loan demonstration
 
 ## Run in Google Colab
-1. Upload/open `Team14_LendingClub_Submission_Ready.ipynb` in Colab.
+1. Upload/open `Team14_LendingClub_3f.ipynb` in Colab.
 2. Use **Runtime -> Run all**.
 3. The notebook downloads the LendingClub archive using `kagglehub`.
 4. Keep `FAST_MODE = True` while testing.
@@ -57,7 +57,7 @@ Classification is evaluated with default precision, recall, F1, weighted F1, ROC
 ## Suggested repository structure
 ```text
 Team14-LendingClub/
-├── Team14_LendingClub_Submission_Ready.ipynb
+├── Team14_LendingClub_3f.ipynb
 ├── README.md
 ├── requirements.txt
 ├── report/
@@ -83,8 +83,7 @@ It displays a held-out loan, its actual outcome, predicted default probability, 
 ## Team contribution
 Before final submission, replace this section with the **actual contribution of each member**. The course evaluates individual contribution, so do not leave this section vague.
 
-- **Karan Varshney:** [fill actual work]
-- **D Sai Karthik:** [fill actual work]
-
+- **Karan Varshney:** 
+- **D Sai Karthik:** 
 ## Reference
 Peiqian Li and Gao Han, *LendingClub Loan Default and Profitability Prediction*, Stanford CS229 project.
