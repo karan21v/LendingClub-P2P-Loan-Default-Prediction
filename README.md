@@ -8,7 +8,7 @@
 The project uses historical LendingClub loans to predict whether a finalized loan will be **Fully Paid** or will end in **Default / Charged Off**. The supplied reference paper also studies loan profitability, so the notebook includes an additional regression stage that predicts Net Annualized Return (NAR) and evaluates a simple loan-selection strategy.
 
 ## Main notebook
-`Team14_LendingClub_Submission_Ready.ipynb`
+`Team14_LendingClub_3f.ipynb`
 
 The notebook contains:
 - data download and filtering for finalized 2012-2015 loans
