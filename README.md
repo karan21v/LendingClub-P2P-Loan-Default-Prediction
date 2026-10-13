@@ -8,7 +8,7 @@
 The project uses historical LendingClub loans to predict whether a finalized loan will be **Fully Paid** or will end in **Default / Charged Off**. The supplied reference paper also studies loan profitability, so the notebook includes an additional regression stage that predicts Net Annualized Return (NAR) and evaluates a simple loan-selection strategy.
 
 ## Main notebook
-`Team14_LendingClub_3f.ipynb`
+`Team14_P2P Lending.ipynb`
 
 The notebook contains:
 - data download and filtering for finalized 2012-2015 loans
@@ -22,13 +22,6 @@ The notebook contains:
 - NAR-based loan-selection simulation
 - live single-loan demonstration
 
-## Run in Google Colab
-1. Upload/open `Team14_LendingClub_3f.ipynb` in Colab.
-2. Use **Runtime -> Run all**.
-3. The notebook downloads the LendingClub archive using `kagglehub`.
-4. Keep `FAST_MODE = True` while testing.
-5. For the final results, set `FAST_MODE = False`, restart the runtime and run all cells again.
-6. Use the **Final review summary** and `demo_loan(0)` cells during the review.
 
 ## Dataset
 The notebook uses the public LendingClub accepted-loan archive and keeps only finalized loans issued during 2012-2015. `Fully Paid` is mapped to class 1, while `Default` and `Charged Off` are mapped to class 0. Unfinished statuses such as `Current` and `Late` are excluded.
@@ -80,10 +73,6 @@ demo_loan(0)
 
 It displays a held-out loan, its actual outcome, predicted default probability, actual and predicted NAR, and the model-based investment decision.
 
-## Team contribution
-Before final submission, replace this section with the **actual contribution of each member**. The course evaluates individual contribution, so do not leave this section vague.
 
-- **Karan Varshney:** 
-- **D Sai Karthik:** 
 ## Reference
 Peiqian Li and Gao Han, *LendingClub Loan Default and Profitability Prediction*, Stanford CS229 project.
